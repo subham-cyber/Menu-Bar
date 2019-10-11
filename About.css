@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #112c38
+}
+h1{
+	margin: 10px;
+	padding: 10px;
+	justify-content: center;
+	text-align-last: center;
+	color: white;
+	font-family: 'Bookman Old Style', sans-serif ;
+}
+p{
+	margin: 20px 50px;
+	padding: 2px 20px;
+	justify-content: center;
+	text-align-last: center;
+	color: white;
+	font-family: 'Bookman Old Style', sans-serif ;
+	border: 3px ridge #C37F16;
+	border-radius: 30px;
+}
