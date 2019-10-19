@@ -63,15 +63,16 @@ ul li a:hover:before{
 	transform: scaleX(1);
 }
 h1{
-	color: #4562C9; 
+	color: #995D4F; 
 	font-family: 'Bradley Hand ITC';
 	font-size: 40px;
 	text-align: center;
-	border: ridge 3px orange;
+	border: ridge 3px #995D4F;
 	border-radius: 30px;
+	box-shadow: 0 8px 5px -5px #1F0600;
 	cursor: pointer;
 	padding: 5px 8px;
-	margin: 30px 600px;
+	margin: 0 40%;
 }
 a img{
 	width: 30px;
@@ -82,9 +83,10 @@ img{
 	width: 450px;
 	height: 300px;
 	margin: 10px;
-	transition: all 0.2s;
+	transition: all 0.4s;
 } 
 
 img:hover{
 	transform: scale(1.1);
+	box-shadow: 0 10px 6px -6px black;
 }
